@@ -1,133 +1,96 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="img/favicon.ico">
-    <title></title>
+    <title>Driwings</title>
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/driwings.css">
-  </head>
-  <body>
-        <div class="collapse bg-inverse" id="navbarHeader">
-          <div class="container">
+</head>
+<body>
+    <div class="collapse bg-inverse" id="navbarHeader">
+        <div class="container">
             <div class="row">
-              <div class="col-sm-8 py-4">
-                <h4 class="text-white">About me</h4>
-                <p class="text-desc">I'm a designer that specializes in
-                  backgrounds and patterns. My work can be used as background
-                  for chat applications like WhatsApp, wallpapers for PCs,
-                  customized Facebook cover photos or even printed material!</p>
-                  <p class="text-desc"><strong>We make custom designs, <a href="#">contact us</a>!</strong></p>
-              </div>
-              <div class="col-sm-4 py-4">
-                <h4 class="text-white">Contact</h4>
-                <ul class="list-unstyled">
-                  <li><a href="#" class="text-white">See my other work in DeviantArt</a></li>
-                  <li><a href="#" class="text-white">Like my page on Facebook</a></li>
-                  <li><a href="#" class="text-white">Contact me</a></li>
-                </ul>
-              </div>
+                <div class="col-sm-8 py-4">
+                    <h4 class="text-white">About me</h4>
+                    <p class="text-desc">I'm a designer that specializes in
+                        backgrounds and patterns. My work can be used as background
+                        for chat applications like WhatsApp, wallpapers for PCs,
+                        customized Facebook cover photos or even printed material!</p>
+                        <p class="text-desc"><strong>We make custom designs, <a href="#">contact us</a>!</strong></p>
+                    </div>
+                    <div class="col-sm-4 py-4">
+                        <h4 class="text-white">Contact</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">See my other work in DeviantArt</a></li>
+                            <li><a href="#" class="text-white">Like my page on Facebook</a></li>
+                            <li><a href="#" class="text-white">Contact me</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
         <div class="navbar navbar-light">
-          <div class="container d-flex justify-content-between">
-            <a href="#" class="navbar-brand">Driwings</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand">Driwings</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
         </div>
 
         <section class="jumbotron text-center">
-          <div class="container">
-            <h1 class="jumbotron-heading">Custom backgrounds and cover drawings</h1>
-            <p class="lead text-muted">Here are some samples of work we have done.<br /> You'll find patterns, cover photos and chat wallpapers.</p>
-            <p class="lead text-muted">Do you like what you see? Get a custom design!</p>
-            <p>
-              <a href="#" class="btn btn-primary">Contact us</a>
-            </p>
-          </div>
+            <div class="container">
+                <h1 class="jumbotron-heading">Custom backgrounds and cover drawings</h1>
+                <p class="lead text-muted">Here are some samples of work we have done.<br /> You'll find patterns, cover photos and chat wallpapers.</p>
+                <p class="lead text-muted">Do you like what you see? Get a custom design!</p>
+                <p>
+                    <a href="#" class="btn btn-primary">Contact us</a>
+                </p>
+            </div>
         </section>
 
+        <script type="text/template" id="templateCategory">
+            <h4>
+                <%= category.name %><br />
+                <small class="text-muted block-explanation"><%= category.desc %></small>
+            </h4>
+
+            <div class="row">
+                <%
+                category.imgs.forEach(img => { %>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="<%= img.img %>" alt="<%= img.name %>">
+                            <p class="card-text"><%= img.desc %></p>
+                        </div>
+                    </div>
+                <% }); %>
+            </div>
+        </script>
+
         <div class="album text-muted">
-          <div class="container">
-            <p class="text-muted">Click on any example to see more details and instructions on how to use them.</p>
-
-            <h4>
-              Chat wallpapers<br />
-              <small class="text-muted block-explanation">You can use these in IM applications like WhatsApp. If you're designing your own chat application, <a href="#">contact us</a>!</small>
-            </h4>
-            <div class="row">
-              <div class="card">
-                <img src="img/example.png" alt="Card image cap">
-                <p class="card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-              </div>
-              <div class="card">
-                <img src="img/example.png" alt="Card image cap">
-                <p class="card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-              </div>
-              <div class="card">
-                <img src="img/example.png" alt="Card image cap">
-                <p class="card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-              </div>
+            <div class="container" id="album-container">
+                <p class="text-muted">Click on any example to see more details and instructions on how to use them.</p>
             </div>
-
-            <h4>
-              Cover images<br />
-              <small class="text-muted block-explanation">You can use these as cover photos in Facebook or Google+. If you want a custom design for you or your company, <a href="#">contact us</a>!</small>
-            </h4>
-            <div class="row">
-              <div class="card">
-                <img src="img/example.png" alt="Card image cap">
-                <p class="card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-              </div>
-              <div class="card">
-                <img src="img/example.png" alt="Card image cap">
-                <p class="card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-              </div>
-              <div class="card">
-                <img src="img/example.png" alt="Card image cap">
-                <p class="card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-              </div>
-            </div>
-
-            <h4>
-              Patterns<br />
-              <small class="text-muted block-explanation">Patterns can be used as wallpapers, or as background in webpages, or even in printed material. If you need a custom design for you or your company, <a href="#">contact us</a>!</small>
-            </h4>
-
-            <div class="row">
-              <div class="card">
-                <img src="img/example.png" alt="Card image cap">
-                <p class="card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-              </div>
-              <div class="card">
-                <img src="img/example.png" alt="Card image cap">
-                <p class="card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-              </div>
-              <div class="card">
-                <img src="img/example.png" alt="Card image cap">
-                <p class="card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-              </div>
-            </div>
-
-          </div>
         </div>
 
         <footer class="text-muted">
-          <div class="container">
-            <p class="float-right">
-              <a href="#">Back to the top</a>
-            </p>
-            <p>Driwings.com &copy; Adriana Amaral</p>
-          </div>
+            <div class="container">
+                <p class="float-right">
+                    <a href="#">Back to the top</a>
+                </p>
+                <p>driwings.com &copy; Adriana Amaral</p>
+            </div>
         </footer>
 
         <script src="js/jquery/jquery-3.1.1.min.js"></script>
         <script src="js/bootstrap/bootstrap.min.js"></script>
-  </body>
-</html>
+        <script src="js/underscore/underscore-min.js" charset="utf-8"></script>
+        <script src="js/driwings.js" charset="utf-8"></script>
+
+    </body>
+    </html>
