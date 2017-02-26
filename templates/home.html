@@ -22,7 +22,7 @@
             <div class="row">
                 <%
                 category.imgs.forEach(img => { %>
-                    <div class="col-md-4">
+                    <div class="col-12 col-md-4">
                         <div class="card" data-toggle="modal" data-target="#modalImg">
                             <img src="<%= img.img %>" alt="<%= img.name %>">
                             <p class="img-desc card-text"><%= img.desc %></p>
@@ -47,10 +47,10 @@
       <div class="modal-body">
           <div class="container fluid">
               <div class="row">
-                  <div class="col-8">
+                  <div class="col-12 col-lg-8">
                       <img class="img" src="" />
                   </div>
-                  <div class="col-4">
+                  <div class="col-12 col-lg-4">
                       <p class="img-desc"></p>
                       <p class="text-center"><a class="btn btn-primary img-download" href="" download><%= img.download %></a></p>
                       <p><%= img.tip %><p>
