@@ -15,8 +15,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 py-4">
-                    <h4 class="text-white">About me</h4>
-                    <p class="text-desc">I'm a designer that specializes in backgrounds and patterns. My work can be used as background for chat applications like WhatsApp, wallpapers for PCs, customized Facebook cover photos or even printed material!</p><p class="text-desc"><strong>We make custom designs, <a href="#">contact us</a>!</strong></p>
+                    <h4 class="text-white"><%= about.name %></h4>
+                    <p class="text-desc"><%= about.text %></p>
                     </div>
                     <div class="col-sm-4 py-4">
                         <h4 class="text-white">Contact</h4>
@@ -52,96 +52,7 @@
         <div class="album text-muted">
             <div class="container" id="album-container">
                 <p class="text-muted">Click on any example to see more details and instructions on how to use them.</p>
-                <h4>
-    Chat wallpapers<br />
-    <small class="text-muted block-explanation">You can use these in IM applications like WhatsApp. If you're designing your own chat application, <a href="#">contact us</a>!</small>
-</h4>
-
-<div class="row">
-    
-        <div class="col-md-4">
-            <div class="card" data-toggle="modal" data-target="#modalImg">
-                <img src="img/example.png" alt="1">
-                <p class="img-desc card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-            </div>
-        </div>
-    
-        <div class="col-md-4">
-            <div class="card" data-toggle="modal" data-target="#modalImg">
-                <img src="img/example.png" alt="2">
-                <p class="img-desc card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-            </div>
-        </div>
-    
-        <div class="col-md-4">
-            <div class="card" data-toggle="modal" data-target="#modalImg">
-                <img src="img/example.png" alt="3">
-                <p class="img-desc card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-            </div>
-        </div>
-    
-</div>
-
-<h4>
-    Cover images<br />
-    <small class="text-muted block-explanation">You can use these as cover photos in Facebook or Google+. If you want a custom design for you or your company, <a href="#">contact us</a>!</small>
-</h4>
-
-<div class="row">
-    
-        <div class="col-md-4">
-            <div class="card" data-toggle="modal" data-target="#modalImg">
-                <img src="img/example.png" alt="1">
-                <p class="img-desc card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-            </div>
-        </div>
-    
-        <div class="col-md-4">
-            <div class="card" data-toggle="modal" data-target="#modalImg">
-                <img src="img/example.png" alt="2">
-                <p class="img-desc card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-            </div>
-        </div>
-    
-        <div class="col-md-4">
-            <div class="card" data-toggle="modal" data-target="#modalImg">
-                <img src="img/example.png" alt="3">
-                <p class="img-desc card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-            </div>
-        </div>
-    
-</div>
-
-<h4>
-    Patterns<br />
-    <small class="text-muted block-explanation">Patterns can be used as wallpapers, or as background in webpages, or even in printed material. If you need a custom design for you or your company, <a href="#">contact us</a>!</small>
-</h4>
-
-<div class="row">
-    
-        <div class="col-md-4">
-            <div class="card" data-toggle="modal" data-target="#modalImg">
-                <img src="img/example.png" alt="1">
-                <p class="img-desc card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-            </div>
-        </div>
-    
-        <div class="col-md-4">
-            <div class="card" data-toggle="modal" data-target="#modalImg">
-                <img src="img/example.png" alt="2">
-                <p class="img-desc card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-            </div>
-        </div>
-    
-        <div class="col-md-4">
-            <div class="card" data-toggle="modal" data-target="#modalImg">
-                <img src="img/example.png" alt="3">
-                <p class="img-desc card-text">Here you tell a little bit about the design. You may go a little more in detail on how or why it was created.</p>
-            </div>
-        </div>
-    
-</div>
-
+                <%= _.join(categories, "\n") %>
             </div>
         </div>
 
