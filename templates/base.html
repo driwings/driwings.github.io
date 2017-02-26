@@ -12,6 +12,7 @@
     <link rel="icon" href="img/favicon.ico">
     <title>Driwings</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
     <link rel="stylesheet" href="css/driwings.css">
 </head>
 <body>
@@ -29,7 +30,7 @@
 
     <div class="navbar navbar-light">
         <div class="container d-flex justify-content-between align-items-start">
-            <a href="/" class="navbar-brand"><img id="logo" src="img/example.png" /></a>
+            <a href="/" class="navbar-brand"><img id="logo" src="img/logo.png" /></a>
             <div class="nav-item nav-link lang-switcher lang-switcher-top">
                 <% lang_selector() %>
             </div>
@@ -48,9 +49,9 @@
                         <div class="col-sm-4 py-4">
                             <h4><%= about.other %></h4>
                             <ul class="list-unstyled">
-                                <li><a href="#"><%= about.devart %></a></li>
                                 <li><a href="#"><%= about.fb %></a></li>
                                 <li><a href="#"><%= about.bh %></a></li>
+                                <li><a href="#"><%= about.devart %></a></li>
                             </ul>
                         </div>
                     </div>
@@ -60,11 +61,12 @@
                 <p class="float-right">
                     <a href="/"><%= footer.bttt %></a>
                 </p>
-                <p>driwings.com &copy; Adriana Amaral</p>
 
                 <p class="lang-switcher lang-switcher-bottom">
                     <%= footer.languagetip %>: <% lang_selector() %>
                 </p>
+
+                <p class="copyright">driwings.com &copy; Adriana Amaral</p>
 
             </div>
         </footer>

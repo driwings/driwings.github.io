@@ -7,6 +7,7 @@
     padding-bottom: 6rem;
     margin-bottom: 0;
     background-color: #fff;
+    font-family: 'ABeeZee', sans-serif;
 }
 
 .jumbotron p:last-child {
@@ -47,7 +48,6 @@
 
 footer {
     padding-top: 3rem;
-    padding-bottom: 3rem;
 }
 
 footer p {
@@ -103,10 +103,37 @@ img {
 }
 
 #logo {
-    height: 72px;
-    width: 210px;
+    max-height: 72px;
+    width: auto;
 }
 
 .current-language {
     font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #FF6F00;
+  border-color: #FF6F00;
+}
+
+.btn-primary:hover {
+  background-color: #E65100;
+  border-color: #E65100;
+}
+
+a {
+  color: #00BCD4;
+}
+
+a.current-language {
+  background-color: #FF6F00;
+  color: #FFF !important;
+}
+
+.lang-switcher a {
+  padding: 4px 12px;
+}
+
+.copyright {
+  margin: 32px 0px;
 }
