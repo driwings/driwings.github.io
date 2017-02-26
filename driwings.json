@@ -23,9 +23,9 @@
             "en": "I'm a designer that specializes in backgrounds and patterns. My work can be used as background for chat applications like WhatsApp, wallpapers for PCs, customized Facebook cover photos or even printed material!</p><p class=\"text-desc\"><strong>We make custom designs, <a href=\"\" class=\"contactus\">contact us</a>!</strong>",
             "pt": "Sou uma designer especializada em fundos e padrões. Meu trabalho pode ser usado como papel de parede em aplicações de chat como WhatsApp, papéis de parede para desktop, fotos de capa personalizada no Facebook ou até mesmo material impresso! </p><p class=\"text-desc\"><strong>Nós fazemos design personalizado, <a href=\"\" class=\"contactus\">contate-nos</a>!</strong>"
         },
-        "contact*": {
-            "en": "Contact",
-            "pt": "Contato"
+        "other*": {
+            "en": "Other pages",
+            "pt": "Outras páginas"
         },
         "devart*": {
             "en": "See our other work in DeviantArt",
@@ -42,7 +42,12 @@
     },
     "footer": {
         "bttt*": {
-            "en": "Back to the top"
+            "en": "Back to the top",
+            "pt": "Topo"
+        },
+        "languagetip*": {
+            "en": "Languages",
+            "pt": "Idiomas"
         }
     },
     "contact": {

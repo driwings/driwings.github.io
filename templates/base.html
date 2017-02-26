@@ -15,48 +15,57 @@
     <link rel="stylesheet" href="css/driwings.css">
 </head>
 <body>
-    <div class="collapse bg-inverse" id="navbarHeader">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 py-4">
-                    <h4 class="text-white"><%= about.name %></h4>
-                    <p class="text-desc"><%= about.text %></p>
-                    </div>
-                    <div class="col-sm-4 py-4">
-                        <h4 class="text-white"><%= about.contact %></h4>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-white"><%= about.devart %></a></li>
-                            <li><a href="#" class="text-white"><%= about.fb %></a></li>
-                            <li><a href="#" class="text-white"><%= about.bh %></a></li>
-                        </ul>
-                    </div>
-                </div>
+
+    <% function lang_selector() { %>
+        <% Object.keys(langs).forEach(lang => { %>
+            <% if (langs[lang].current) { %>
+                <a class="current-language"><%= langs[lang].name %></a>
+            <% } else { %>
+                <a href="<%= langs[lang].home %>"><%= langs[lang].name %></a>
+            <% } %>
+            <span class="lang-divider">|</span>
+        <% }) %>
+    <% } %>
+
+    <div class="navbar navbar-light">
+        <div class="container d-flex justify-content-between align-items-start">
+            <a href="/" class="navbar-brand"><img id="logo" src="img/example.png" /></a>
+            <div class="nav-item nav-link lang-switcher lang-switcher-top">
+                <% lang_selector() %>
             </div>
         </div>
-        <div class="navbar navbar-light">
-            <div class="container d-flex justify-content-between">
-                <a href="/" class="navbar-brand">Driwings</a>
-                <div class="nav-item nav-link lang-switcher">
-                    <% Object.keys(langs).forEach(lang => { %>
-                        <% if (langs[lang].current) return; %>
-                        <a href="<%= langs[lang].home %>"><%= langs[lang].name %></a>
-                        <span class="lang-divider">|</span>
-                    <% }) %>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-        </div>
+    </div>
 
         <%= content %>
 
         <footer class="text-muted">
             <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 py-4">
+                        <h4><%= about.name %></h4>
+                        <p><%= about.text %></p>
+                        </div>
+                        <div class="col-sm-4 py-4">
+                            <h4><%= about.other %></h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><%= about.devart %></a></li>
+                                <li><a href="#"><%= about.fb %></a></li>
+                                <li><a href="#"><%= about.bh %></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="container">
                 <p class="float-right">
                     <a href="/"><%= footer.bttt %></a>
                 </p>
                 <p>driwings.com &copy; Adriana Amaral</p>
+
+                <p class="lang-switcher lang-switcher-bottom">
+                    <%= footer.languagetip %>: <% lang_selector() %>
+                </p>
+
             </div>
         </footer>
 

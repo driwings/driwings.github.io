@@ -54,10 +54,6 @@ footer p {
     margin-bottom: .25rem;
 }
 
-.text-desc {
-    color: #aaa;
-}
-
 .block-explanation {
     font-size: .75rem;
     font-style: italic;
@@ -79,14 +75,38 @@ img {
     margin-right: 0;
 }
 
-.lang-switcher * {
+.lang-switcher {
     font-size: 0.7em;
+    padding: 0;
+}
+
+.lang-switcher-bottom {
+    font-size: 1.0em;
 }
 
 .lang-divider {
     padding: 0px 8px;
 }
 
+@media (max-width: 576px) {
+    .lang-switcher-top {
+        display: none !important;
+    }
+}
+
+.lang-switcher-top {
+    padding: 0px 8px;
+}
+
 .lang-divider:last-child {
     display: none !important;
+}
+
+#logo {
+    height: 72px;
+    width: 210px;
+}
+
+.current-language {
+    font-weight: bold;
 }
