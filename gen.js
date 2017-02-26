@@ -17,10 +17,10 @@ function template(name) {
     return tmpl;
 }
 
-function localize(data, lang) {
+function _localize(data, lang) {
     if (_.isArray(data)) {
         return _.reduce(data, (mem, value, key) => {
-            mem.push(localize(value, lang));
+            mem.push(_localize(value, lang));
             return mem;
         }, [])
     }
@@ -32,7 +32,7 @@ function localize(data, lang) {
                 mem[key.slice(0, -1)] = localized;
             }
             else {
-                mem[key] = localize(value, lang);
+                mem[key] = _localize(value, lang);
             }
             return mem;
         }, {});
@@ -40,22 +40,28 @@ function localize(data, lang) {
     return data;
 }
 
+function localize(data, lang) {
+    var data = _localize(data, lang);
+    data.langs[lang].current = true;
+    return data;
+}
+
 function output(fname, data) {
     fs.writeFileSync(fname, data);
 }
 
-function gen(driwings, fname) {
-    var about = driwings.about;
-
-    var categories = _.map(driwings.categories, (category) => {
-        return template("category")({lang, category});
-    });
-
-    output(fname, template("home")({
-        lang, categories, about
-    }));
+function genPage(driwings, fname) {
+    var base = template("base");
+    driwings.content = template("home")(driwings);
+    output(fname, base(driwings));
 }
 
-gen(localize(driwings, "en"), "index.html");
-gen(localize(driwings, "pt"), "pt.html");
-gen(localize(driwings, "es"), "es.html");
+function genHome(driwings) {
+    Object.keys(driwings.langs).forEach(lang => {
+        var langdata = driwings.langs[lang];
+        var localized = localize(driwings, lang)
+        genPage(localized, langdata.home);
+    });
+}
+
+genHome(driwings);

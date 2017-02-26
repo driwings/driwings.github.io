@@ -1,123 +1,240 @@
 {
-    "about": {
-        "name*": {
-            "en": "About me"
+    "langs": {
+        "en": {
+            "name": "English",
+            "home": "index.html",
+            "default": true
         },
-        "text*": {
-            "en": "I'm a designer that specializes in backgrounds and patterns. My work can be used as background for chat applications like WhatsApp, wallpapers for PCs, customized Facebook cover photos or even printed material!</p><p class=\"text-desc\"><strong>We make custom designs, <a href=\"#\">contact us</a>!</strong>"
+        "pt": {
+            "name": "Português",
+            "home": "pt.html"
         }
     },
-    "categories": [
-        {
-            "name*": {
-                "en": "Chat wallpapers"
-            },
-            "desc*": {
-                "en": "You can use these in IM applications like WhatsApp. If you're designing your own chat application, <a href=\"#\">contact us</a>!"
-            },
-            "imgs": [
-                {
-                    "name*": {
-                        "en": "1"
-                    },
-                    "img": "img/example.png",
-                    "desc*": {
-                        "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
-                    }
-                },
-                {
-                    "name*": {
-                        "en": "2"
-                    },
-                    "img": "img/example.png",
-                    "desc*": {
-                        "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
-                    }
-                },
-                {
-                    "name*": {
-                        "en": "3"
-                    },
-                    "img": "img/example.png",
-                    "desc*": {
-                        "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
-                    }
-                }
-            ]
+    "metadescription*": {
+        "en": "Custom backgrounds, patterns and cover drawings for your site, application or personal use",
+        "pt": "Papéis de parede, padrões e fotos de capa para seu site, aplicação ou uso pessoal"
+    },
+    "about": {
+        "name*": {
+            "en": "About Driwings",
+            "pt": "Sobre a Driwings"
         },
-        {
-            "name*": {
-                "en": "Cover images"
-            },
-            "desc*": {
-                "en": "You can use these as cover photos in Facebook or Google+. If you want a custom design for you or your company, <a href=\"#\">contact us</a>!"
-            },
-            "imgs": [
-                {
-                    "name*": {
-                        "en": "1"
-                    },
-                    "img": "img/example.png",
-                    "desc*": {
-                        "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
-                    }
-                },
-                {
-                    "name*": {
-                        "en": "2"
-                    },
-                    "img": "img/example.png",
-                    "desc*": {
-                        "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
-                    }
-                },
-                {
-                    "name*": {
-                        "en": "3"
-                    },
-                    "img": "img/example.png",
-                    "desc*": {
-                        "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
-                    }
-                }
-            ]
+        "text*": {
+            "en": "I'm a designer that specializes in backgrounds and patterns. My work can be used as background for chat applications like WhatsApp, wallpapers for PCs, customized Facebook cover photos or even printed material!</p><p class=\"text-desc\"><strong>We make custom designs, <a href=\"\" class=\"contactus\">contact us</a>!</strong>",
+            "pt": "Sou uma designer especializada em fundos e padrões. Meu trabalho pode ser usado como papel de parede em aplicações de chat como WhatsApp, papéis de parede para desktop, fotos de capa personalizada no Facebook ou até mesmo material impresso! </p><p class=\"text-desc\"><strong>Nós fazemos design personalizado, <a href=\"\" class=\"contactus\">contate-nos</a>!</strong>"
         },
-        {
-            "name*": {
-                "en": "Patterns"
-            },
-            "desc*": {
-                "en": "Patterns can be used as wallpapers, or as background in webpages, or even in printed material. If you need a custom design for you or your company, <a href=\"#\">contact us</a>!"
-            },
-            "imgs": [
-                {
-                    "name*": {
-                        "en": "1"
-                    },
-                    "img": "img/example.png",
-                    "desc*": {
-                        "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
-                    }
-                },
-                {
-                    "name*": {
-                        "en": "2"
-                    },
-                    "img": "img/example.png",
-                    "desc*": {
-                        "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
-                    }
-                },
-                {
-                    "name*": {
-                        "en": "3"
-                    },
-                    "img": "img/example.png",
-                    "desc*": {
-                        "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
-                    }
-                }
-            ]
+        "contact*": {
+            "en": "Contact",
+            "pt": "Contato"
+        },
+        "devart*": {
+            "en": "See our other work in DeviantArt",
+            "pt": "Veja nossos trabalhos no DeviantArt"
+        },
+        "fb*": {
+            "en": "Like our page on Facebook",
+            "pt": "Curta nossa página no Facebook"
+        },
+        "bh*": {
+            "en": "Visit our portfolio on Behance",
+            "pt": "Visite nosso portfolio no Behance"
         }
-    ]
+    },
+    "footer": {
+        "bttt*": {
+            "en": "Back to the top"
+        }
+    },
+    "contact": {
+        "title*": {
+            "en": "Contact us",
+            "pt": "Contate-nos"
+        },
+        "email1*": {
+            "en": "You can e-mail us by clicking on the button below:",
+            "pt": "Você pode nos enviar um email clicando no botão abaixo:"
+        },
+        "email2*": {
+            "en": "You can also send an email directly to the address below:",
+            "pt": "Você também pode enviar um email diretamente ao endereço abaixo"
+        },
+        "emailbtn*": {
+            "en": "Send us an email",
+            "pt": "Enviar um email para a Driwings"
+        },
+        "faq*": {
+            "en": "FAQ - Frequently asked questions",
+            "pt": "FAQ - Questões frequentes"
+        },
+        "faq1*": {
+            "en": "<span class=\"faq-question\">How does it work?</span> Contact us with your need or idea and we'll talk and develop it! We can iterate as much as necessary until you get the perfect design!",
+            "pt": "<span class=\"faq-question\">Como funciona?</span> Entre em contatto conosco informando a sua necessidade ou ideia e nós conversaremos e desenvolveremos o design juntos! Nós iteramos o quanto for necessário até que você tenha seu design perfeito!"
+        },
+        "faq2*": {
+            "en": "<span class=\"faq-question\">How much does it cost?</span> It depends a lot on what you ask. Typically, expect it to cost something from US$ 30 for personal use, and US$ 90 for commercial use.",
+            "pt": "<span class=\"faq-question\">Quanto custa?</span> O preço depende muito do design. Tipicamente, um design para uso pessoal vai custar cerca de R$ 90 (US$ 30), e um para uso comercial cerca de R$ 270 (US$ 90)."
+        },
+        "faq3*": {
+            "en": "<span class=\"faq-question\">How is payment done?</span> We typically use PayPal, but we can agree on other means. If you are in Brazil, it can be done via the banking system as well.",
+            "pt": "<span class=\"faq-question\">Como é feito o pagamento?</span> Nós costumamos usar PayPal, mas formas de pagamento alternativas podem ser acordadas. Se você está no Brasil, o pagamento pode ser feito através do sistem bancário também."
+        },
+        "close*": {
+            "en": "Close",
+            "pt": "Fechar"
+        }
+    },
+    "jumbotron": {
+        "headline*": {
+            "en": "Custom backgrounds and cover drawings",
+            "pt": "Fundos customizados e desenhos de capa"
+        },
+        "lead1*": {
+            "en": "Here are some samples of work we have done.<br /> You'll find patterns, cover drawings and chat wallpapers.",
+            "pt": "Aqui você encontra alguns exemplos de trabalho que fizemos.<br /> Você vai encontrar padrões, desenhos de capa e papéis de parede"
+        },
+        "lead2*": {
+            "en": "Do you like what you see? Get a custom design!",
+            "pt": "Gostou do que viu? Peça um desenho personalizado!"
+        },
+        "contact*": {
+            "en": "Contact us",
+            "pt": "Contate-nos"
+        }
+    },
+    "album": {
+        "tip*": {
+            "en": "Click on any example to see more details and instructions on how to use them.",
+            "pt": "Clique nos exemplos abaixo para ver mais detalhes e instruções de como usá-los"
+        },
+        "categories": [
+            {
+                "name*": {
+                    "en": "Chat wallpapers",
+                    "pt": "Papéis de parede para aplicações de mensagens"
+                },
+                "desc*": {
+                    "en": "You can use these in IM applications like WhatsApp. If you're designing your own chat application, <a href=\"\" class=\"contactus\">contact us</a>!",
+                    "pt": "Você pode usar estes desenhos em aplicações de mensagem como WhatsApp. Se você está fazendo sua própria aplicação, <a href=\"\" class=\"contactus\">contate-nos</a>!"
+                },
+                "imgs": [
+                    {
+                        "name*": {
+                            "en": "Gray and boring rectangle"
+                        },
+                        "img": "img/example.png",
+                        "desc*": {
+                            "en": "This is a nice description of the drawing with a few interesting details."
+                        }
+                    },
+                    {
+                        "name*": {
+                            "en": "2"
+                        },
+                        "img": "img/example.png",
+                        "desc*": {
+                            "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
+                        }
+                    },
+                    {
+                        "name*": {
+                            "en": "3"
+                        },
+                        "img": "img/example.png",
+                        "desc*": {
+                            "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
+                        }
+                    }
+                ]
+            },
+            {
+                "name*": {
+                    "en": "Cover images",
+                    "pt": "Desenhos de capa"
+                },
+                "desc*": {
+                    "en": "You can use these as cover photos in Facebook. If you want a custom design for you or your company, <a href=\"\" class=\"contactus\">contact us</a>!",
+                    "pt": "Estes desenhos podem ser usados como fotos de capa no Facebook. Se você quiser um desenho personalizado para você ou sua empresa, <a href=\"\" class=\"contactus\">contact-nos</a>!"
+                },
+                "imgs": [
+                    {
+                        "name*": {
+                            "en": "1"
+                        },
+                        "img": "img/example.png",
+                        "desc*": {
+                            "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
+                        }
+                    },
+                    {
+                        "name*": {
+                            "en": "2"
+                        },
+                        "img": "img/example.png",
+                        "desc*": {
+                            "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
+                        }
+                    },
+                    {
+                        "name*": {
+                            "en": "3"
+                        },
+                        "img": "img/example.png",
+                        "desc*": {
+                            "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
+                        }
+                    }
+                ]
+            },
+            {
+                "name*": {
+                    "en": "Patterns",
+                    "pt": "Padrões"
+                },
+                "desc*": {
+                    "en": "Patterns can be used as wallpapers, or as background in webpages, or even in printed material. If you need a custom design for you or your company, <a href=\"\" class=\"contactus\">contact us</a>!",
+                    "pt": "Padrões podem ser usados como papéis de parede, fundos de páginas ou até mesmo material impresso. Se você precisa de um desenho personalizado para você ou sua empresa, <a href=\"\" class=\"contactus\">contact-nos</a>!"
+                },
+                "imgs": [
+                    {
+                        "name*": {
+                            "en": "1"
+                        },
+                        "img": "img/example.png",
+                        "desc*": {
+                            "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
+                        }
+                    },
+                    {
+                        "name*": {
+                            "en": "2"
+                        },
+                        "img": "img/example.png",
+                        "desc*": {
+                            "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
+                        }
+                    },
+                    {
+                        "name*": {
+                            "en": "3"
+                        },
+                        "img": "img/example.png",
+                        "desc*": {
+                            "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "img": {
+        "download*": {
+            "en": "Download"
+        },
+        "tip*": {
+            "en": "After you download it, learn how to define it as a <a href=\"https://www.facebook.com/help/220070894714080?helpref=faq_content\">cover photo on Facebook</a> or how to use it as a <a href=\"https://www.whatsapp.com/faq/en/android/20354947447840\">WhatsApp wallpaper</a>."
+        },
+        "license*": {
+            "en": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png\" /></a><br />This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>."
+        }
+    }
 }
