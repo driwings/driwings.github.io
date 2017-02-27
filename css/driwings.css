@@ -75,13 +75,8 @@ img {
     margin-right: 0;
 }
 
-.lang-switcher {
+.lang-switcher-top {
     font-size: 0.7em;
-    padding: 0;
-}
-
-.lang-switcher-bottom {
-    font-size: 1.0em;
 }
 
 .lang-divider {

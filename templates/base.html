@@ -45,30 +45,32 @@
                     <div class="col-sm-8 py-4">
                         <h4><%= about.name %></h4>
                         <p><%= about.text %></p>
-                        </div>
-                        <div class="col-sm-4 py-4">
-                            <h4><%= about.other %></h4>
-                            <ul class="list-unstyled">
-                                <li><a href="https://www.facebook.com/driwings"><%= about.fb %></a></li>
-                                <li><a href="https://www.behance.net/driama"><%= about.bh %></a></li>
-                                <li><a href="http://x-ama.deviantart.com/"><%= about.devart %></a></li>
-                            </ul>
-                        </div>
+                    </div>
+                    <div class="col-sm-4 py-4">
+                        <h4><%= about.other %></h4>
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.facebook.com/driwings"><%= about.fb %></a></li>
+                            <li><a href="https://www.behance.net/driama"><%= about.bh %></a></li>
+                            <li><a href="http://x-ama.deviantart.com/"><%= about.devart %></a></li>
+                        </ul>
                     </div>
                 </div>
 
-            <div class="container">
-                <p class="float-right">
-                    <a href="/"><%= footer.bttt %></a>
-                </p>
+                <div class="row">
+                    <p class="col-sm-8 py-4 lang-switcher lang-switcher-bottom">
+                        <%= footer.languagetip %>: <% lang_selector() %>
+                    </p>
 
-                <p class="lang-switcher lang-switcher-bottom">
-                    <%= footer.languagetip %>: <% lang_selector() %>
-                </p>
+                    <p class="col-sm-4 py-4">
+                        <a href="/"><%= footer.bttt %></a>
+                    </p>
+                </div>
 
-                <p class="copyright">driwings.com &copy; Adriana Amaral</p>
-
+                <div class="row">
+                    <p class="col-12 copyright">driwings.com &copy; Adriana Amaral</p>
+                </div>
             </div>
+
         </footer>
 
         <div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="modalContactLabel" aria-hidden="true">
