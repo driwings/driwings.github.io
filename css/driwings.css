@@ -1,3 +1,12 @@
+body {
+        font-family: 'ABeeZee', sans-serif !important;
+}
+
+body * :focus {
+    00BCD4
+    box-shadow: 0 0 0 4px rgba(0, 188, 212, 0.5) !important;
+}
+
 .navbar {
     margin-bottom: 0;
 }
@@ -6,8 +15,7 @@
     padding-top: 6rem;
     padding-bottom: 6rem;
     margin-bottom: 0;
-    background-color: #fff;
-    font-family: 'ABeeZee', sans-serif;
+    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url("../img/example.png");
 }
 
 .jumbotron p:last-child {
@@ -25,7 +33,7 @@
 .main-content {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-color: #f7f7f7;
+    background-color: #EEEEEE;
 }
 
 .card {
