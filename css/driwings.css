@@ -154,8 +154,7 @@ a.current-language {
 }
 
 /* Album */
-.album-tip {
-}
+
 
 /* Image modal */
 .modal-title {
@@ -171,7 +170,15 @@ a.current-language {
     max-height: 400px;
 }
 
-p.license {
-    position: absolute;
-    bottom: 0;
+@media (min-width: 992px) {
+    p.license {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+button.close {
+    font-size: 2.0rem;
+    color: #000;
+    opacity: 1;
 }

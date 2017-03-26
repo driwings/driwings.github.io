@@ -108,8 +108,8 @@
     },
     "album": {
         "tip*": {
-            "en": "Click on any example to see more details and instructions on how to use them.",
-            "pt": "Clique nos exemplos abaixo para ver mais detalhes e instruções de como usá-los"
+            "en": "Click on any example below to view more details and instructions on how to use them.",
+            "pt": "Clique nos exemplos abaixo para ver mais detalhes e instruções de como usá-los."
         },
         "categories": [
             {
@@ -233,13 +233,15 @@
     },
     "img": {
         "download*": {
-            "en": "Download"
+            "en": "Download full-size image",
+            "pt": "Baixar versão completa"
         },
         "tip*": {
             "en": "After you download it, learn how to define it as a <a href=\"https://www.facebook.com/help/220070894714080?helpref=faq_content\">cover photo on Facebook</a> or how to use it as a <a href=\"https://www.whatsapp.com/faq/en/android/20354947447840\">WhatsApp wallpaper</a>."
         },
         "license*": {
-            "en": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png\" /></a><br />This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>."
+            "en": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png\" /></a><br />This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.",
+            "pt": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"><img alt=\"Licença Creative Commons\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png\" /></a><br />Este trabalho está licenciado com uma Licença <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons - Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional</a>."
         }
     }
 }
