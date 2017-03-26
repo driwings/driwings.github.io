@@ -169,11 +169,9 @@ a.current-language {
     max-height: 400px;
 }
 
-@media (min-width: 992px) {
-    p.license {
-        position: absolute;
-        bottom: 0;
-    }
+p.license {
+    margin-right: auto !important;
+    margin-bottom: 0 !important;
 }
 
 button.close {
