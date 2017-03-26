@@ -90,8 +90,8 @@
     },
     "jumbotron": {
         "headline*": {
-            "en": "Fill in empty boring spaces with custom pattern backgrounds",
-            "pt": "Preencha espaços sem graça com padrões personalizados"
+            "en": "Fill in empty boring spaces <br />with custom patterns",
+            "pt": "Preencha espaços sem graça <br />com padrões personalizados"
         },
         "lead1*": {
             "en": "Below you can see some pattern samples in different styles",
