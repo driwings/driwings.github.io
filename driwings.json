@@ -20,24 +20,24 @@
             "pt": "Sobre a Driwings"
         },
         "text*": {
-            "en": "I'm a designer that specializes in backgrounds and patterns. My work can be used as background for chat applications like WhatsApp, wallpapers for PCs, customized Facebook cover photos or even printed material!</p><p class=\"text-desc\"><strong>We make custom designs, <a href=\"\" class=\"contactus\">contact us</a>!</strong>",
-            "pt": "Sou uma designer especializada em fundos e padrões. Meu trabalho pode ser usado como papel de parede em aplicações de chat como WhatsApp, papéis de parede para desktop, fotos de capa personalizada no Facebook ou até mesmo material impresso! </p><p class=\"text-desc\"><strong>Nós fazemos design personalizado, <a href=\"\" class=\"contactus\">contate-nos</a>!</strong>"
+            "en": "I'm a designer that specializes in backgrounds and patterns. My work can be used as background for websites, wallpapers for PCs and chat applications like WhatsApp, customized Facebook cover photos or even printed material!</p><p class=\"text-desc\"><strong>We make custom designs, <a href=\"\" class=\"contactus\">contact Driwings</a>!</strong>",
+            "pt": "Sou uma designer especializada em fundos e padrões. Meu trabalho pode ser usado como fundo para sites, papel de parede para PCs e aplicações de chat como WhatsApp, fotos de capa personalizada no Facebook ou até mesmo material impresso! </p><p class=\"text-desc\"><strong>Nós fazemos design personalizado, <a href=\"\" class=\"contactus\">contate a Driwings</a>!</strong>"
         },
         "other*": {
             "en": "Other pages",
             "pt": "Outras páginas"
         },
         "devart*": {
-            "en": "See our other work in DeviantArt",
-            "pt": "Veja nossos trabalhos no DeviantArt"
+            "en": "See my other work in DeviantArt",
+            "pt": "Veja meus trabalhos no DeviantArt"
         },
         "fb*": {
-            "en": "Like our page on Facebook",
-            "pt": "Curta nossa página no Facebook"
+            "en": "Like the Driwings page on Facebook",
+            "pt": "Curta a página da Driwings no Facebook"
         },
         "bh*": {
-            "en": "Visit our portfolio on Behance",
-            "pt": "Visite nosso portfolio no Behance"
+            "en": "Visit my portfolio on Behance",
+            "pt": "Visite meu portfolio no Behance"
         }
     },
     "footer": {
@@ -90,12 +90,12 @@
     },
     "jumbotron": {
         "headline*": {
-            "en": "Custom backgrounds and cover drawings",
-            "pt": "Fundos customizados e desenhos de capa"
+            "en": "Fill in empty boring spaces with custom pattern backgrounds",
+            "pt": "Preencha espaços sem graça com padrões personalizados"
         },
         "lead1*": {
-            "en": "Here are some samples of work we have done.<br /> You'll find patterns, cover drawings and chat wallpapers.",
-            "pt": "Aqui você encontra alguns exemplos de trabalho que fizemos.<br /> Você vai encontrar padrões, desenhos de capa e papéis de parede"
+            "en": "Below you can see some pattern samples in different styles",
+            "pt": "Abaixo você pode ver exemplos de padrões em diferentes estilos"
         },
         "lead2*": {
             "en": "Do you like what you see? Get a custom design!",
@@ -114,117 +114,117 @@
         "categories": [
             {
                 "name*": {
-                    "en": "Chat wallpapers",
-                    "pt": "Papéis de parede para aplicações de mensagens"
+                    "en": "Doodle style",
+                    "pt": "Estilo desenhado"
                 },
                 "desc*": {
-                    "en": "You can use these in IM applications like WhatsApp. If you're designing your own chat application, <a href=\"\" class=\"contactus\">contact us</a>!",
-                    "pt": "Você pode usar estes desenhos em aplicações de mensagem como WhatsApp. Se você está fazendo sua própria aplicação, <a href=\"\" class=\"contactus\">contate-nos</a>!"
+                    "en": "This type of pattern looks nice on more relaxed and funny brand pages and applications. If you like this style, <a href=\"\" class=\"contactus\">contact us</a>!",
+                    "pt": "Este tipo de padrão fica bonito em sites e aplicações mais relaxados e divertidos. Se você gostou deste estilo, <a href=\"\" class=\"contactus\">contate-nos</a>!"
                 },
                 "imgs": [
                     {
                         "name*": {
-                            "en": "Gray and boring rectangle"
+                            "en": "Kitchen shelves"
                         },
-                        "img": "img/example.png",
+                        "img": "kitchen",
                         "desc*": {
-                            "en": "This is a nice description of the drawing with a few interesting details."
+                            "en": "This is a wide pattern showing kitchen shelves full of ingredients, fruits, jars and other details. It's best used in wide areas like Facebook cover pages."
                         }
                     },
                     {
                         "name*": {
-                            "en": "2"
+                            "en": "St. Patrick's Day"
                         },
-                        "img": "img/example.png",
+                        "img": "stpatricksday",
                         "desc*": {
-                            "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
+                            "en": "A soft pattern celebrating St. Patrick's day. It fits best as a background in chat application, such as WhatsApp."
                         }
                     },
                     {
                         "name*": {
                             "en": "3"
                         },
-                        "img": "img/example.png",
+                        "img": "example",
                         "desc*": {
-                            "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
+                            "en": "Description"
                         }
                     }
                 ]
             },
             {
                 "name*": {
-                    "en": "Cover images",
-                    "pt": "Desenhos de capa"
+                    "en": "Geometric",
+                    "pt": "Geométricos"
                 },
                 "desc*": {
-                    "en": "You can use these as cover photos in Facebook. If you want a custom design for you or your company, <a href=\"\" class=\"contactus\">contact us</a>!",
-                    "pt": "Estes desenhos podem ser usados como fotos de capa no Facebook. Se você quiser um desenho personalizado para você ou sua empresa, <a href=\"\" class=\"contactus\">contact-nos</a>!"
+                    "en": "Geometric patterns are more discrete and fit well in more serious applications and pages. If you need this type of pattern, <a href=\"\" class=\"contactus\">contact us</a>!",
+                    "pt": "Padrões geométricos são mais discretos e se encaixam bem em aplicações e páginas mais sérios. Se você precisa de um padrão deste tipo <a href=\"\" class=\"contactus\">contate-nos</a>!"
                 },
                 "imgs": [
                     {
                         "name*": {
                             "en": "1"
                         },
-                        "img": "img/example.png",
+                        "img": "example",
                         "desc*": {
-                            "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
+                            "en": "Description"
                         }
                     },
                     {
                         "name*": {
                             "en": "2"
                         },
-                        "img": "img/example.png",
+                        "img": "example",
                         "desc*": {
-                            "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
+                            "en": "Description"
                         }
                     },
                     {
                         "name*": {
                             "en": "3"
                         },
-                        "img": "img/example.png",
+                        "img": "example",
                         "desc*": {
-                            "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
+                            "en": "Description"
                         }
                     }
                 ]
             },
             {
                 "name*": {
-                    "en": "Patterns",
-                    "pt": "Padrões"
+                    "en": "-",
+                    "pt": "-"
                 },
                 "desc*": {
-                    "en": "Patterns can be used as wallpapers, or as background in webpages, or even in printed material. If you need a custom design for you or your company, <a href=\"\" class=\"contactus\">contact us</a>!",
-                    "pt": "Padrões podem ser usados como papéis de parede, fundos de páginas ou até mesmo material impresso. Se você precisa de um desenho personalizado para você ou sua empresa, <a href=\"\" class=\"contactus\">contact-nos</a>!"
+                    "en": "-. If you need a custom design for you or your company, <a href=\"\" class=\"contactus\">contact us</a>!",
+                    "pt": "-. Se você precisa de um desenho personalizado para você ou sua empresa, <a href=\"\" class=\"contactus\">contate-nos</a>!"
                 },
                 "imgs": [
                     {
                         "name*": {
                             "en": "1"
                         },
-                        "img": "img/example.png",
+                        "img": "example",
                         "desc*": {
-                            "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
+                            "en": "Description"
                         }
                     },
                     {
                         "name*": {
                             "en": "2"
                         },
-                        "img": "img/example.png",
+                        "img": "example",
                         "desc*": {
-                            "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
+                            "en": "Description"
                         }
                     },
                     {
                         "name*": {
                             "en": "3"
                         },
-                        "img": "img/example.png",
+                        "img": "example",
                         "desc*": {
-                            "en": "Here you tell a little bit about the design. You may go a little more in detail on how or why it was created."
+                            "en": "Description"
                         }
                     }
                 ]

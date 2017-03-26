@@ -12,10 +12,18 @@ body * :focus {
 }
 
 .jumbotron {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    margin: -100px 0px 0px 0px;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
     margin-bottom: 0;
-    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url("../img/example.png");
+    /* background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url("../img/headerbg.png"); */
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1.0), rgba(85, 255, 215, 0.5) 60%, rgba(0, 99, 255, 0.5) 90%, rgba(55, 48, 177, 0.5)), url("../img/headerbg.png");
+    background-size: cover, 70%;
+    background-position: -40% 50%;
+}
+
+@media (max-width: 1020px) {
+    .jumbotron { background-size: cover, 1024px; }
 }
 
 .jumbotron p:last-child {
@@ -24,10 +32,16 @@ body * :focus {
 
 .jumbotron-heading {
     font-weight: 300;
+    color: #fff;
 }
 
+.jumbotron p.text-muted {
+    color: #fff !important;
+}
 .jumbotron .container {
     max-width: 40rem;
+}
+.jumbotron button {
 }
 
 .main-content {
@@ -67,9 +81,7 @@ footer p {
     font-style: italic;
 }
 
-img {
-    max-width: 100%;
-}
+
 
 .faq-question {
     font-weight: bold;
@@ -139,4 +151,27 @@ a.current-language {
 
 .copyright {
   margin: 32px 0px;
+}
+
+/* Album */
+.album-tip {
+}
+
+/* Image modal */
+.modal-title {
+    font-weight: bold;
+}
+
+.img-container {
+    overflow: hidden;
+}
+
+.img-container > img {
+    width: 100%;
+    max-height: 400px;
+}
+
+p.license {
+    position: absolute;
+    bottom: 0;
 }
