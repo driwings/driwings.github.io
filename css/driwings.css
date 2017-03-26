@@ -32,6 +32,7 @@ body * :focus {
 .jumbotron-heading {
     font-weight: 300;
     color: #fff;
+    margin-bottom: 2.0rem;
 }
 
 .jumbotron p.text-muted {
